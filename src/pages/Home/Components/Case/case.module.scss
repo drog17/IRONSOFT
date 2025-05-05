@@ -1,0 +1,76 @@
+@import '../../../../Global/gobal.module.scss';
+
+.case {
+    text-align: center;
+    color: #fff;
+    padding: 120px 0;
+    background: $bgColor;
+    position: relative;
+
+    img {
+        border-radius: 20px;
+        width: 674px;
+        height: 516px;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        margin: 12px 0 32px;
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 87%;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        margin-bottom: 44px;
+    }
+
+    &__btn {
+        border-radius: 12px;
+        width: 200px;
+        height: 44px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 250%;
+        text-align: center;
+        background: #018abe;
+        margin-top: 124px;
+        border: none;
+        color: #fff;
+    }
+    .spotleft{
+        z-index: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .spotright{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+    .slide {
+        img {
+            width: 674px;
+            height: 516px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 112%;
+            text-align: start;
+            margin: 20px 0 0 20px;
+        }
+    }
+}

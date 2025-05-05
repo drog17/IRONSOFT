@@ -1,0 +1,46 @@
+@import '../../../../Global/gobal.module.scss';
+
+.blog {
+    padding: 100px 0;
+    border-bottom-left-radius: 100px 100px;
+    border-bottom-right-radius: 100px 100px;
+    h2 {
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 87%;
+        text-align: center;
+        color: #0c151c;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    img {
+        border-radius: 20px;
+        width: 397px;
+        height: 328px;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 117%;
+        color: #0c151c;
+        margin: 24px 0 4px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: rgba(0, 0, 0, 0.7);
+        margin: 12px 0;
+    }
+
+    span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8baab7;
+        margin-bottom: 32px;
+    }
+}

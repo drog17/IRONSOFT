@@ -1,0 +1,32 @@
+@import '../../Global/gobal.module.scss';
+
+.footer {
+    color: #fff;
+    background: $bgColor;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav {
+        display: flex;
+        gap: 84px;
+        align-items: center;
+    }
+
+    &__btn {
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width: 163px;
+        height: 57px;
+        background: #fff;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #0189be;
+    }
+}
