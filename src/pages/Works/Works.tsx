@@ -1,6 +1,5 @@
 import Hero from './Components/Hero/Hero'
 import Stylish from './Components/Stylish/Stylish'
-import styles from './works.module.scss'
 
 
 

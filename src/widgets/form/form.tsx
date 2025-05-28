@@ -1,5 +1,3 @@
-// Form.tsx
-import { useState } from 'react';
 import axios from 'axios';
 import styles from './form.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
@@ -23,7 +21,7 @@ const Form = () => {
     dispatch(startSubmit());
 
     try {
-      const response = await axios.post('http://localhost:3001/contacts', {
+      const response = await axios.post('http://localhost:8080/contacts', {
         name: formState.name,
         email: formState.email,
         phone: formState.phone,
@@ -42,7 +40,7 @@ const Form = () => {
   };
 
   return (
-    <div className={styles.form}>
+    <div id='form' className={styles.form}>
       <h2>Tell us about your <br />amazing project</h2>
       
       <form onSubmit={handleSubmit}>

@@ -1,6 +1,22 @@
 {
-    "contacts":[],
-  
+  "contacts": [
+    {
+      "name": "islam",
+      "email": "drog.the.same@gmail.com",
+      "phone": "21345678",
+      "message": "that is cool",
+      "agreed": true,
+      "id": 1748433511270
+    },
+    {
+      "name": "nsjenxejn",
+      "email": "nejxninixemo@gamil.com",
+      "phone": "gvuvbuvih",
+      "message": "vubib",
+      "agreed": true,
+      "id": 1748434609558
+    }
+  ],
   "productsCase": [
     {
       "id": 1,
@@ -21,42 +37,46 @@
       "image": "https://ironsoft.dev/images/w-3.png"
     }
   ],
-  "productBlog":[
+  "productBlog": [
     {
-      "id":1,
-      "name":"IKEA.com — the problems with static content",
-      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
-      "date":"12.08.23",
-      "image":"https://ironsoft.dev/images/blog/1.jpg"
+      "id": 1,
+      "name": "IKEA.com — the problems with static content",
+      "description": "In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date": "12.08.23",
+      "image": "https://ironsoft.dev/images/blog/1.jpg",
+      "category": "business"
     },
     {
-      "id":2,
-      "name":"IKEA.com — the problems with static content",
-      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
-      "date":"12.08.23",
-      "image":"https://ironsoft.dev/images/blog/2.jpg"
+      "id": 2,
+      "name": "IKEA.com — the problems with static content",
+      "description": "In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date": "12.08.23",
+      "image": "https://ironsoft.dev/images/blog/2.jpg",
+      "category": "business"
     },
     {
-      "id":3,
-      "name":"IKEA.com — the problems with static content",
-      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
-      "date":"12.08.23",
-      "image":"https://ironsoft.dev/images/blog/3.jpg"
+      "id": 3,
+      "name": "IKEA.com — the problems with static content",
+      "description": "In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date": "12.08.23",
+      "image": "https://ironsoft.dev/images/blog/3.jpg",
+      "category": "business"
     },
     {
-      "id":4,
-      "name":"IKEA.com — the problems with static content",
-      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
-      "date":"12.08.23",
-      "image":"https://ironsoft.dev/images/blog/4.jpg"
+      "id": 4,
+      "name": "IKEA.com — the problems with static content",
+      "description": "In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date": "12.08.23",
+      "image": "https://ironsoft.dev/images/blog/4.jpg",
+      "category": "Marketing"
     },
     {
-      "id":5,
-      "name":"IKEA.com — the problems with static content",
-      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
-      "date":"12.08.23",
-      "image":"https://ironsoft.dev/images/blog/5.jpg"
+      "id": 5,
+      "name": "IKEA.com — the problems with static content",
+      "description": "In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date": "12.08.23",
+      "image": "https://ironsoft.dev/images/blog/5.jpg",
+      "category": "social"
     }
   ]
 }
-

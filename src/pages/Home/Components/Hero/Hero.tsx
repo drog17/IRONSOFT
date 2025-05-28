@@ -13,6 +13,15 @@ import { Link } from 'react-router-dom'
 
 
 const Hero = () => {
+  
+  const scrollToSection = () => {
+        const section = document.getElementById('form');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
+  
   return (
     <section className={styles.hero}>
       <div className={styles.container}>
@@ -21,7 +30,7 @@ const Hero = () => {
             <img src={Is} alt="" />
             <h2>Your Website <br /> good enough?</h2>
           </div>
-          <button className={styles.hero__btn}>Check this now!</button>
+          <button className={styles.hero__btn} onClick={scrollToSection}>Check this now!</button>
           <div className={styles.hero__trust}>
             <h3>THEY TRUST US</h3>
             <div className={styles.hero__logos}>

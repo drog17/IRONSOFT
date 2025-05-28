@@ -1,10 +1,8 @@
 @import '../../Global/gobal.module.scss';
 
 .blogSection {
-  padding: 4rem 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  font-family: 'Arial', sans-serif;
+  padding: 100px 0;
+  background: $bgColor;
 }
 
 .header {
@@ -14,20 +12,20 @@
 
 .title {
   font-size: 2.5rem;
-  color: #333;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #666;
+  color: #fff;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
 }
 
 .postsContainer {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
 }
@@ -81,7 +79,8 @@
   font-size: 0.8rem;
 }
 
-.loading, .error {
+.loading,
+.error {
   text-align: center;
   padding: 2rem;
   font-size: 1.2rem;
