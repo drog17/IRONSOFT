@@ -1,0 +1,36 @@
+@import '../../../../Global/gobal.module.scss';
+
+.meet {
+    padding: 100px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 200px;
+    }
+
+    &__text {
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 125%;
+            text-transform: uppercase;
+            color: #0c151c;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 78px;
+            line-height: 87%;
+            color: #0c151c;
+            margin: 12px 0 42px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 150%;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}

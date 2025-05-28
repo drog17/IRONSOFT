@@ -3,6 +3,7 @@
 .footer {
     color: #fff;
     background: $bgColor;
+
     .container {
         display: flex;
         justify-content: space-between;
@@ -12,6 +13,21 @@
         display: flex;
         gap: 84px;
         align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover {
+            color: $btnColor;
+            text-decoration: underline;
+            transition: 0.7s;
+            cursor: pointer;
+        }
     }
 
     &__btn {
@@ -28,5 +44,11 @@
         text-transform: uppercase;
         text-align: center;
         color: #0189be;
+    }
+
+    &__btn:hover {
+        background: #0c151c;
+        border: #fff 1px solid;
+        color: #fff;
     }
 }

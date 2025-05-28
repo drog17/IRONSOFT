@@ -1,0 +1,64 @@
+@import '../../../../Global/gobal.module.scss';
+
+
+.what {
+  padding: 100px 0;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 87%;
+    margin: 12px 0 32px;
+  }
+
+  .description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .item {
+    border-radius: 20px;
+    padding: 52px 32px;
+    width: 559px;
+    height: 226px;
+    transition: all 0.3s ease;
+    background: #def4fe;
+    position: relative;
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+    }
+  }
+
+  .itemTitle {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+  }
+
+}

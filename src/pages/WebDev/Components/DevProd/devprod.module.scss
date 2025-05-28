@@ -1,0 +1,67 @@
+@import '../../../../Global/gobal.module.scss';
+
+.devprod {
+    padding: 100px 0;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 87%;
+        text-align: center;
+        color: #018abe;
+    }
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 87%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    &__main {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    &__card {
+        border: 1px solid #e2e2e2;
+        border-radius: 48px;
+        padding: 52px 32px;
+        width: 398px;
+        height: 284px;
+        position: relative;
+
+        span {
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 112%;
+            position: absolute;
+            bottom: 122px;
+            left: 40px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 150%;
+            color: rgba(0, 0, 0, 0.7);
+            margin-top: 12px;
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+        }
+    }
+    &__card::after{
+        content: '';
+        background: url('./fi_8099707.png')center/cover no-repeat;
+        display: block;
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 40px;
+        top: 36px;
+    }
+}

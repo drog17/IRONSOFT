@@ -1,0 +1,72 @@
+@import '../../../../Global/gobal.module.scss';
+
+
+.hero {
+    padding: 100px 0;
+    background: $bgColor;
+    color: #fff;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__text {
+        h3 {
+            font-weight: 400;
+            font-size: 112px;
+            line-height: 96%;
+            text-transform: uppercase;
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 292%;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+    }
+
+    &__span {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: uppercase;
+        background: $btnColor;
+        border-radius: 60px;
+        width: 713px;
+        height: 72px;
+        padding: 15px;
+        margin: 37px 0 104px;
+    }
+
+    &__logos {
+        display: flex;
+        column-gap: 65px;
+    }
+
+    &__stack {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+
+        img {
+            width: 62px;
+            height: 62px;
+        }
+    }
+
+    &__imgs {
+        display: flex;
+        align-items: end;
+        column-gap: 18px;
+
+        .bg2 {
+            height: 475px;
+        }
+    }
+}

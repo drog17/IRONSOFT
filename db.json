@@ -1,4 +1,62 @@
 {
-    "users":[],
-    "products":[]
+    "contacts":[],
+  
+  "productsCase": [
+    {
+      "id": 1,
+      "title": "tovar",
+      "description": "Modern look for the the software development company",
+      "image": "https://ironsoft.dev/images/w-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Другой товар",
+      "description": "Corporate website for an assemble modular houses enterprise",
+      "image": "https://ironsoft.dev/images/w-2.png"
+    },
+    {
+      "id": 3,
+      "title": "еще товар",
+      "description": "Corporate website for an assemble modular houses enterprise",
+      "image": "https://ironsoft.dev/images/w-3.png"
+    }
+  ],
+  "productBlog":[
+    {
+      "id":1,
+      "name":"IKEA.com — the problems with static content",
+      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date":"12.08.23",
+      "image":"https://ironsoft.dev/images/blog/1.jpg"
+    },
+    {
+      "id":2,
+      "name":"IKEA.com — the problems with static content",
+      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date":"12.08.23",
+      "image":"https://ironsoft.dev/images/blog/2.jpg"
+    },
+    {
+      "id":3,
+      "name":"IKEA.com — the problems with static content",
+      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date":"12.08.23",
+      "image":"https://ironsoft.dev/images/blog/3.jpg"
+    },
+    {
+      "id":4,
+      "name":"IKEA.com — the problems with static content",
+      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date":"12.08.23",
+      "image":"https://ironsoft.dev/images/blog/4.jpg"
+    },
+    {
+      "id":5,
+      "name":"IKEA.com — the problems with static content",
+      "description":"In my previous blog post, I wrote about the history of IKEA.com going from a monolithic e-commerce platform…",
+      "date":"12.08.23",
+      "image":"https://ironsoft.dev/images/blog/5.jpg"
+    }
+  ]
 }
+

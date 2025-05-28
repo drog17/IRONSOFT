@@ -1,0 +1,47 @@
+.scroll__btn {
+    border: none;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 335px;
+    height: 177px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 91%;
+    text-align: center;
+    color: #0c151c;
+    position: absolute;
+    bottom: 0;
+    left: 680px;
+
+    div {
+        position: absolute;
+        border-radius: 100%;
+        background: #018abe;
+        width: 78px;
+        height: 78px;
+        margin-left: 100px;
+        padding: 25px;
+    }
+
+}
+
+.scroll__btn:hover {
+    div {
+        animation-name: move;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: 20px;
+        bottom: -30px;
+    }
+
+    100% {
+        bottom: -30%;
+        left: 20px;
+    }
+}

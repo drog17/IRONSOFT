@@ -1,0 +1,81 @@
+@import '../../../../Global/gobal.module.scss';
+
+.hero {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+
+        .form {
+            width: 50%;
+            text-align: center;
+
+            h3 {
+                font-size: 44px;
+                margin-bottom: 15px;
+                color: #b4b2b2;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                input,
+                textarea {
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid #333;
+                    color: white;
+                    margin-bottom: 20px;
+                    padding: 15px;
+                    font-size: 14px;
+                }
+
+                textarea {
+                    resize: vertical;
+                    min-height: 100px;
+                }
+
+                .attachPolicy {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                    padding: 15px 0;
+                    .attach {
+                        color: #00bfff;
+                        display: flex;
+                        align-items: center;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+
+                    label {
+                        font-size: 16px;
+                        display: flex;
+                        column-gap: 2px;
+
+                        .privat {
+                            color: #00bfff;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .submit {
+                    cursor: pointer;
+                    border: none;
+                    background: #018abe;
+                    border-radius: 20px;
+                    height: 116px;
+                    font-weight: 400;
+                    font-size: 44px;
+                    line-height: 91%;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

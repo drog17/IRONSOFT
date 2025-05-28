@@ -1,0 +1,124 @@
+@import '../../Global/gobal.module.scss';
+
+.form {
+    background: $bgColor;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+
+    h2 {
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    input {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 167%;
+        text-transform: uppercase;
+        color: #8baab7;
+        width: 95%;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #8baab7;
+        margin-bottom: 48px;
+        height: 36px;
+    }
+
+    label {
+        display: flex;
+        column-gap: 27px;
+
+        input {
+            width: 305px;
+            height: 36px;
+        }
+    }
+
+    &__checkbox {
+        color: #fff;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        position: absolute;
+    }
+
+    &__btn {
+        border: none;
+        background: #018abe;
+        border-radius: 20px;
+        width: 637px;
+        height: 116px;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 91%;
+        color: #fff;
+    }
+    &__btn:hover{
+        background: #0c151c;
+        border: $btnColor 1px solid;
+    }
+}
+// .form {
+//     color: #333;
+    
+//     h2 {
+//         font-size: 24px;
+//         margin-bottom: 20px;
+//         color: #222;
+//     }
+    
+//     input[type="text"],
+//     input[type="email"],
+//     input[type="tel"] {
+//         width: 100%;
+//         padding: 12px;
+//         margin-bottom: 15px;
+//         border: 1px solid #ddd;
+//         border-radius: 4px;
+//         font-size: 16px;
+//     }
+    
+//     label {
+//         display: block;
+//         margin-bottom: 15px;
+//     }
+    
+//     .checkbox {
+//         display: flex;
+//         align-items: center;
+//         margin: 20px 0;
+        
+//         input {
+//             margin-right: 10px;
+//         }
+//     }
+    
+//     .form__btn {
+//         background: $btnColor;
+//         color: white;
+//         border: none;
+//         padding: 12px 24px;
+//         border-radius: 4px;
+//         cursor: pointer;
+//         font-size: 16px;
+//         width: 100%;
+//     }
+    
+//     @media (max-width: 768px) {
+//         h2 {
+//             font-size: 20px;
+//         }
+        
+//         input {
+//             padding: 10px;
+//         }
+//     }
+// }

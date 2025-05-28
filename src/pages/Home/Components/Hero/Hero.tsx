@@ -8,6 +8,7 @@ import a from './img/logos/Sign Green 2.png'
 import trident from './img/logos/Group 25765.png'
 import viva from './img/logos/vivalogo 2.png'
 import spot from './img/spot.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -39,7 +40,9 @@ const Hero = () => {
             <img src={right} alt="" />
           </div>
           <div className={styles.hero__services}>
-            <div><span>Web Development</span></div>
+            <Link to={'/web'}>
+              <div><span>Web Development</span></div>
+            </Link>
             <div><span>SEOptimisation</span></div>
             <div><span>PPC and SMM</span></div>
           </div>

@@ -47,6 +47,10 @@
         border: none;
         color: #fff;
     }
+    &__btn:hover{
+        background: #0c151c;
+        border: $btnColor 1px solid;
+    }
     .spotleft{
         z-index: 0;
         position: absolute;
