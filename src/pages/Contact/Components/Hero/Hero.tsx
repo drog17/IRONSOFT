@@ -1,28 +1,4 @@
-// import styles from './hero.module.scss'
 import Contact from './contact__img.png'
-// import { style } from '@mui/system'
-
-// const Hero = () => {
-//     return (
-//         <section className={styles.hero}>
-//             <div className={styles.container}>
-//                 <img src={Contact} alt="" />
-//                 <div className={styles.form}>
-//                     <form>
-//                         <input type="text" placeholder='NAME' />
-//                         <input type="email" placeholder='EMAIL' />
-//                         <input type="number" placeholder='PHONE' />
-//                         <input type="text" placeholder='MESSAGE' />
-//                         <label className={styles.checkbox}><input type="checkbox" />I agree to the Privacy Policy</label>
-//                         <button>Submit</button>
-//                     </form>
-//                 </div>
-//             </div>
-//         </section>
-//     )
-// }
-
-// export default Hero
 import styles from "./hero.module.scss";
 
 

@@ -6,11 +6,12 @@ import Works from "./pages/Works/Works";
 import Contact from "./pages/Contact/Contact";
 import Web from "./pages/WebDev/Web";
 import BlogProd from "./pages/BlogProd/BlogProd";
-
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Main />} />
